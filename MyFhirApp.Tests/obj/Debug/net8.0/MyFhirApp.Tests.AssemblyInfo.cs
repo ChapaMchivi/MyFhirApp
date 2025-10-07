@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyFhirApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ef56125a355743bd62924faa0981b660032cecc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c948217e3a4633c8073a74c76172aabc4a84e1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyFhirApp.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyFhirApp.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
