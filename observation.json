@@ -1,0 +1,72 @@
+{
+  "resourceType": "Patient",
+  "id": "example-patient",
+  "extension": [
+    {
+      "url": "https://hl7.org/fhir/StructureDefinition/patient-placeOfBirth",
+      "valueAddress": {
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://hospital.smarthealth.org/mrn",
+      "value": "123456"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "usual",
+      "family": "Everyman",
+      "given": [
+        "Adam"
+      ]
+    },
+    {
+      "use": "nickname",
+      "given": [
+        "Ace"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+1-425-555-1234",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "adam.everyman@example.com",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "_gender": {
+  "extension": [
+    {
+      "url": "https://hl7.org/fhir/StructureDefinition/administrative-gender",
+      "valueCode": "male"
+    }
+  ]
+},
+  "birthDate": "1985-06-15",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "123 Main St"
+      ],
+      "city": "Bothell",
+      "state": "WA",
+      "postalCode": "98011",
+      "country": "USA"
+    }
+  ],
+  "multipleBirthBoolean": false
+}
