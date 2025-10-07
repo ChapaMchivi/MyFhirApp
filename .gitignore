@@ -1,0 +1,17 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Coverage
+*.coverage
+*.coveragexml
+
+# Others
+*.cache
+*.log
