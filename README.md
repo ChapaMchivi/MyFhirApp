@@ -5,24 +5,24 @@ A modular .NET 8 pipeline for transforming CSV health data into FHIR resources.
 
 ---
 
-## 🧠 About This Project
+##  About This Project
 
 This repository contains modular C# services for uploading and validating FHIR resources using the [Firely .NET SDK](https://github.com/firely-net/firely-net-sdk). It is designed for public health data automation workflows, with a focus on:
 
-- 🔄 **CSV-to-FHIR mapping** using structured `Patient` and `Observation` resources  
-- 🧪 **Dry-run validation** of transaction bundles before committing to a FHIR server  
-- 🧼 **Null-safe logging** and robust error handling for HL7/FHIR operations  
-- 🧩 **Modular pipeline design** for future integration with duplicate detection, coding validation, and batch processing
+-  **CSV-to-FHIR mapping** using structured `Patient` and `Observation` resources  
+-  **Dry-run validation** of transaction bundles before committing to a FHIR server  
+-  **Null-safe logging** and robust error handling for HL7/FHIR operations  
+-  **Modular pipeline design** for future integration with duplicate detection, coding validation, and batch processing
 
 The code is structured for clarity, reproducibility, and operational transparency — ideal for analysts and developers working in health informatics, medical coding, or FHIR-based data exchange.
 
 ---
 
-## 🔍 Firely .NET SDK Integration
+##  Firely .NET SDK Integration
 
 This project uses the [Firely .NET SDK](https://github.com/firely-net/firely-net-sdk), the official open-source toolkit for building HL7 FHIR applications in .NET environments. It provides a developer-friendly way to model, manipulate, and validate FHIR resources using POCO classes.
 
-### 🔑 Key Concepts
+###  Key Concepts
 
 - **POCO Classes**: Each FHIR resource (e.g., `Patient`, `Observation`, `Immunization`) is represented as a Plain Old CLR Object — lightweight C# classes with properties and no framework dependencies.
 
@@ -128,7 +128,7 @@ MyFhirApp/
 
 ---
 
-## 🚀 Usage Example
+##  Usage Example
 
 Here’s a minimal example of how to invoke the uploader service in dry-run mode:
 
@@ -171,18 +171,18 @@ It uses the [Firely .NET SDK](https://github.com/firely-net/firely-net-sdk) for 
 
 ---
 
-## 🤝 Contributing Guide
+##  Contributing Guide
 
 We welcome contributions to improve modularity, test coverage, and integration workflows.
 
-### 🧩 How to Contribute
+###  How to Contribute
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-improvement`)
 3. Commit your changes with clear messages
 4. Push to your fork and open a pull request
 
-### ✅ Contribution Tips
+###  Contribution Tips
 
 - Keep commits focused and atomic
 - Add unit tests for new logic
@@ -191,7 +191,7 @@ We welcome contributions to improve modularity, test coverage, and integration w
 
 ---
 
-## 🐳 Docker Setup (Part Two Preview)
+##  Docker Setup (Part Two Preview)
 
 Docker support will be added in Part Two for integration testing and containerized FHIR server simulation.
 
@@ -218,14 +218,14 @@ services:
 
 ---
 
-## 🧭 Coming Soon
+##  Coming Soon
 
-> ⚠️ This section outlines future work and is not part of the current milestone.
+>  This section outlines future work and is not part of the current milestone.
 
-- 🔄 Integration test harness with Docker-based FHIR server
-- 🧪 Automated validation of server responses
-- 🧼 Duplicate detection and patient matching
-- 📊 Operational dashboards via Power BI or Grafana
-- 📦 CI/CD pipeline for test + deploy
+-  Integration test harness with Docker-based FHIR server
+-  Automated validation of server responses
+-  Duplicate detection and patient matching
+-  Operational dashboards via Power BI or Grafana
+-  CI/CD pipeline for test + deploy
 
 
